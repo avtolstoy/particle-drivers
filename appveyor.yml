@@ -1,8 +1,7 @@
 version: 6.1.0.{build}
 configuration: Release
 platform:
-- Win32
-- x64
+- All
 build:
   project: lowcdc/lowcdc.sln
   verbosity: minimal
