@@ -5,7 +5,7 @@ build:
   project: lowcdc/lowcdc.proj
   verbosity: minimal
 artifacts:
-- path: *.zip
+- path: "*.zip"
 
 after_build:
 - ps: .\.appveyor\appveyor.after-build.ps1
